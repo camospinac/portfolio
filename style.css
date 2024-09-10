@@ -380,14 +380,6 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-@media (max-width: 768px) {
-  #services{
-
-    position: relative;
-    margin-bottom: 180px;
-}
-}
-
 
 #services{
 
