@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camilo Ospina</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="./assets/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <!-- <div class="logo">Camilo Ospina</div> -->
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Acerca de mi</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <!-- <div class="logo">Camilo Ospina</div> -->
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Acerca de mi</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <!-- <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Foto de Perfil" />
+      </div> -->
+      <div class="section__text">
+        <!-- <p class="section__text__p1">Hola, soy</p> -->
+        <h1 class="title">Camilo Ospina</h1>
+        <p class="section__text__p2">Desarrollador de Software</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cv.pdf')"
+          >
+            Curriculum
+          </button>
+          <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contacto
+          </button> -->
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/camospinac/', '_blank'"
+          />
+
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Conóceme un poco más</p>
+      <h1 class="title">¿Quién soy?</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/perfil.jpg"
+            alt="Foto Perfil"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experiencia"
+                class="icon"
+              />
+              <h3>Experiencia</h3>
+              <p>2+ años <br />Desarrollador de Software</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Educacion"
+                class="icon"
+              />
+              <h3>Educación</h3>
+              <p>Pregrado<br />Ingeniería de Sistemas</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p style="text-align: justify;">
+              Desarrollador de software experimentado con experiencia en el sector financiero y
+              empresarial. En mi rol como desarrollador back-end, he participado y contribuido en una variedad de
+              proyectos, implementando consistentemente altos estándares de calidad y diversas tecnologías.
+              Utilizando metodologías ágiles. He demostrado mi capacidad para adaptarme a altos flujos de trabajo y
+              satisfacer las necesidades de los clientes de manera efectiva. Disfruto de los desafíos y tengo una
+              pasión por el aprendizaje continuo, lo que me permite desarrollar productos de alto impacto.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="experience">
+      <h1 class="title">Experiencia</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Desarrollo Web</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS/JS</h3>
+                  <p>2+ años</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spring Boot</h3>
+                  <p>2+ años</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>2+ año</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>1+ años</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Laravel</h3>
+                  <p>1+ años</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Automatización & Análisis</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>1+ años</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Selenium</h3>
+                  <p>1+ años</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyAutoGUI</h3>
+                  <p>1+ años</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>6+ meses</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="projects">
+      <h1 class="title">Proyectos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/python.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Automatización Captcha</h2>
+            <p>¿No sabes como resolver un captcha de manera automatizada?, en este blog te enseño
+              como hacerlo de manera gratuita únicamente con python y selenium.
+            </p><br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/camospinac/bypasseador'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://medium.com/@camospinac/c%C3%B3mo-resolver-un-recaptcha-con-python-y-selenium-e1f86f014910'"
+              >
+                Medium
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/python.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Rescheduler Visa</h2>
+            <p>
+                Script de automatización para el reagendamiento de citas de visa donde monitorea constantemente
+                el calendario con las citas disponibles.
+            </p><br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/camospinac/reschedulervisa'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://medium.com/@camospinac/automatizaci%C3%B3n-para-el-reagendamiento-de-solicitud-de-citas-de-visa-8dd598730226'"
+              >
+                Medium
+              </button>
+            </div>
+          </div>
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+    </section>
+    <Section id="services">
+      <h1 class="title">Servicios</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/shop.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Diseño Web, Email Marketing, E-commerce</h2>
+            <p>Transforma tu negocio con soluciones digitales a medida. Servicio de diseño web, desarrollo de sitios, 
+              email marketing, campañas publicitarias (SEO y SEM) y ecommerce. Todo lo que necesitas para destacar 
+              en internet y atraer más clientes. ¡Construyamos tu presencia digital hoy!
+            </p>
+
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/rpa.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Automatización de procesos</h2>
+            <p>
+              Optimiza tu negocio automatizando tareas repetitivas y ahorra tiempo y recursos. Implementa soluciones personalizadas para simplificar 
+              procesos, como gestionar citas, formularios o seguimiento de clientes, de forma eficiente y sin complicaciones.
+               ¡Deja que la tecnología haga el trabajo por ti, mientras tú te enfocas en lo importante!
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/programming.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Aplicaciones a la medida</h2>
+            <p>
+              Optimiza tu negocio con soluciones tecnológicas a medida mediante el desarrollo de aplicaciones a la medida
+               para la gestión, análisis y control de datos en tu negocio. Desde herramientas de seguimiento hasta
+                sistemas de gestión eficientes, implemento soluciones que te permiten tomar decisiones más rápidas y precisas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Section>
+
+    <section id="contact">
+      <h1 class="title">Contactame</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:camospinac@outlook.com">camospinac@outlook.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/camospinac/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Acerca de mi</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>&#169; 2024 Camilo Ospina</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
