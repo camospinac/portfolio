@@ -253,6 +253,18 @@ section {
   background: none;
 }
 
+#spanish{
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#english{
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
